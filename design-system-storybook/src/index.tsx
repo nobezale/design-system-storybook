@@ -13,3 +13,6 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 export const Thing: FC<Props> = ({ children }) => {
   return <div>{children || `the snozzberries taste like snozzberries`}</div>;
 };
+
+export { Button } from './Button/Button';
+export { ButtonMui } from './ButtonMui/ButtonMui';
