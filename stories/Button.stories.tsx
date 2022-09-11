@@ -7,6 +7,7 @@ const meta: Meta = {
   component: Button,
   argTypes: {
     onClick: { action: 'click' },
+    variant: { defaultValue: 'primary' },
     children: {
       defaultValue: 'default button',
     },

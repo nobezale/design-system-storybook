@@ -10,13 +10,11 @@ export interface PropsButtonMui {
   disabled: boolean;
   variant: 'contained' | 'outlined' | 'text' | string;
   type: 'button' | 'submit' | 'reset' | undefined;
-  endIcon: ReactNode;
   arrow: 'back' | 'forward';
 }
 export const ButtonMui = ({
   variant,
   disabled,
-  endIcon,
   type,
   arrow,
   children,
