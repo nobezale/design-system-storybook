@@ -14,5 +14,5 @@ export const Thing: FC<Props> = ({ children }) => {
   return <div>{children || `the snozzberries taste like snozzberries`}</div>;
 };
 
-export { Button } from './Button/Button';
-export { ButtonMui } from './ButtonMui/ButtonMui';
+export * from './Button/Button';
+export * from './ButtonMui/ButtonMui';
